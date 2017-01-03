@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    width: 100%;
+    /*height: 100%;*/
+    position: relative;
+}
+
+/* HEADER */
+
+.avatar{
+    width: 120px;
+    height: 55px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    margin-top: 5px;
+}
+
+.border-bottom{
+    width: 100%;
+    height: 85px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-bottom: 1px solid #eaeaea;
+    z-index: -1;
+}
+
+.avatar img{
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+
+}
+
+.avatar a{
+    color: #000;
+}
+
+.avatar a:hover{
+    color: #2D85D2;
+}
+
+
+/* Dropbox */
+
+.dropbox{
+    width: 1115px;
+    height: 80px;
+    position: absolute;
+    right: 39px;
+    top: 100px;
+    border: 3px solid #2D85D2;
+}
+
+.dropbox p, h3{
+    color: #2D85D2;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.dropbox a{
+    text-decoration: none;
+    color: #2864A8;
+}
+
+.dropbox a:hover{
+    color: #2D85D2;
+}
+
+
+/* Boxes */
+
+
+/* UNIQUE */
+.unique-users{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 260px;
+    top: 200px;
+    background-color: #1A9172;
+}
+
+.unique-users h1, h4{
+    color: #fff;
+    font-weight: normal;
+    padding: 5px;
+    margin: 10px;
+}
+
+.unique-users h1 i{
+    margin-left: 100px;
+}
+
+/* AVAILABILITY */
+.availability{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 550px;
+    top: 200px;
+    background-color: #B12521;
+}
+
+.availability h1, h4{
+    color: #fff;
+    font-weight: normal;
+    padding: 5px;
+    margin: 10px;
+}
+
+.availability h1 i{
+    margin-left: 90px;
+}
+
+/* DEPLOYED APPLICATIONS */
+
+.deployed-apps{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    right: 330px;
+    top: 200px;
+    background-color: #E88711;
+}
+
+.deployed-apps h1, h4{
+    color: #fff;
+    font-weight: normal;
+    padding: 5px;
+    margin: 10px;
+}
+
+.deployed-apps h1 i{
+    margin-left: 145px;
+}
+
+/* TICKETS */
+
+.tickets{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    right: 40px;
+    top: 200px;
+    background-color: #2D86D3;
+}
+
+.tickets h1, h4{
+    color: #fff;
+    font-weight: normal;
+    padding: 5px;
+    margin: 10px;
+}
+
+.tickets h1 i{
+    margin-left: 155px;
+}
+
+/* SIDEBAR (Dashboard) */
+
+.sidebar {
+    position: absolute;
+    left: 0px;
+    width: 250px;
+    height: 1000px;
+    background-color: #1D2428;
+}
+
+
+/* TABLE */
+
+table{
+    width: 1115px;
+    position: absolute;
+    top: 320px;
+    right: 40px;
+    border: 1px solid #ddd;
+
+}
+
+th, td{
+    padding: 5px;
+    text-align: left;
+    /*border-bottom: 1px solid #ddd;*/
+}
+
+table tr th:nth-child(1){
+    border-bottom: 1px solid #ddd;
+}
