@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
 <head>
+    <meta charset="utf-8">
     <title>Dashboard</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="wrapper">
+    <div class="container">
+        <aside>
+            <div class="sidebar">
+                test
+            </div>
+        </aside>
+
+        <div class="border-bottom">
+            <div class="avatar">
+                <a href="#"><i class="fa fa-clock-o fa-2x" aria-hidden="true" ></a></i><img src="img/cutie-cat.jpg">
+            </div>
+        </div>
+
+        <div class="dropbox">
+            <h3><i class="fa fa-dropbox" aria-hidden="true"></i>&nbsp;Dropbox</h3>
+            <p>Get up to 16 GB of free space by inviting your friends to Dropbox! <strong><a href="#">click here.</a></strong></p>
+        </div>
+
+        <div class="unique-users">
+            <h4>UNIQUE USERS</h4>
+            <h1>1, 234<i class="fa fa-users" aria-hidden="true"></i></h1>
+        </div>
+
+         <div class="availability">
+            <h4>AVAILABILITY</h4>
+            <h1>88.33%<i class="fa fa-line-chart" aria-hidden="true"></i></h1>
+        </div>
+
+         <div class="deployed-apps">
+            <h4>DEPLOYED APPLICATIONS</h4>
+            <h1>13<i class="fa fa-cubes" aria-hidden="true"></i></h1>
+        </div>
+
+         <div class="tickets">
+            <h4>TICKETS</h4>
+            <h1>25<i class="fa fa-life-ring" aria-hidden="true"></i></h1>
+        </div>
+
+        <table>
+            <!-- <tr>
+                <h3>SERVERS</h3>
+                <h1>Servers</h1>
+            </tr> -->
+            <tr>
+                <th><h5>SERVERS</h5><br><h1>Servers</h1></th>
+                <th>HOSTNAME</th>
+                <th>ALIAS</th>
+                <th>COMMIT</th>
+            </tr>
+            <tr>
+                <td>10.10.1.10(PRD-SQLSRVR)</td>
+                <td>Windows Server 10</td>
+                <td>92f97e5(master)</td>
+                <td>15 minutes ago</td>
+                <td><i class="fa fa-check" aria-hidden="true"></i>Finished</td>
+            </tr>
+            <tr>
+                <td>10.10.1.25(RVLV-DEVSRVR)</td>
+                <td>Ubuntu Server 14.04.03 LTS</td>
+                <td>e45a232(master)</td>
+                <td>25 minutes ago</td>
+                <td><i class="fa fa-check" aria-hidden="true"></i>Finished</td>
+            </tr>
+            <tr>
+                <td>10.10.1.69(RVLV-WEBSRVR)</td>
+                <td>Ubuntu Server 14.04.03 LTS</td>
+                <td>b3t106a(master)</td>
+                <td>25 minutes ago</td>
+                <td><i class="fa fa-times" aria-hidden="true"></i></i>Host error</td>
+            </tr>
+        </table>
+
+
 
     </div>
 </body>
