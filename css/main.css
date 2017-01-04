@@ -28,6 +28,10 @@ body{
     font-size: 12px;
 }
 
+.sidebar ul{
+    padding: 0px;
+}
+
 .sidebar ul li{
     list-style: none;
     padding: 10px;
